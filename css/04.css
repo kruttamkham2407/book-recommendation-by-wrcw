@@ -18,12 +18,23 @@
 
 
 }
+.bgred {
+    background-color: rgb(171, 213, 241);
+
+
+}
 .ImgCen {
     content: attr();
 
 }
 .he1 {
     font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: rgb(214, 136, 33);
+}
+.he2 {
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
 }
 .kanit-medium-italic {
   font-family: "Kanit", sans-serif;
@@ -70,4 +81,11 @@
 .profilex{
   text-align: center;
   
+}
+.imgpro{
+  width: 150px;
+  font-weight: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
 }
